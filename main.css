@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+body
+{
+    background-color: #f7f4ea;
+}
+
+header
+{
+    padding: 25px 0;
+    background-color: #A8E6CF;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+}
+header h1
+{
+    font-size: 2em;
+}
+
+
+img
+{
+    width: 400px;
+    margin-bottom: 12px;
+}
+
+section
+{
+    padding-top: 50px;
+}
+
+article
+{
+    padding: 20px;
+    align-items: center;
+}
+.col-4
+{
+    margin-bottom: 50px;
+}
+.card-img
+{
+    height: 500px;
+}
+.card-img p
+{
+    font-size: 1.08em;
+}
+
+.imgCarrosel
+{
+    height: 500px;
+}
+
+.alert-light
+{
+    text-align: center;
+}
+
+#formularioIdeias input, label, button
+{
+    display: block;
+    border: none;
+    width: 20%;
+}
+
+
+#sujestoes
+{
+    background-color: #A8E6CF;
+}
+
+label
+{
+    font-size: 25px;
+    font-weight: bold
+}
+
+button
+{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.carousel-caption
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 767px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+
+    #cabeçalho
+    {
+        width: 100%;
+    }
+
+    .imgCarrosel
+    {
+        height: 200px;
+    }
+
+    .carousel
+    {
+        width: 100%;
+    }
+
+    .article
+    {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .col-4
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .card-img p
+    {
+        font-size: 0.9em;
+    }
+
+    article img
+    {
+        width: 300px;
+    }
+
+    .torta
+    {
+        padding-bottom: 550px;
+    }
+
+    
+    #formularioIdeias input, label, button
+    {
+        width: 100%;
+    }
+
+
+    #sujestoes
+    {
+        background-color: #A8E6CF;
+    }
+
+    label
+    {
+        font-size: 25px;
+        font-weight: bold
+    }
+
+    button
+    {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption
+    {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    #botaoHeader
+    {
+        width: 20%;
+    }
+}
