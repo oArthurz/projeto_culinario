@@ -143,7 +143,6 @@ button
         width: 100%;
     }
 
-
     #sujestoes
     {
         background-color: #A8E6CF;
@@ -170,5 +169,37 @@ button
     #botaoHeader
     {
         width: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .container
+    {
+        max-width: 80%;
+    }
+
+    article img
+    {
+        width: 390px;
+    }
+
+    .col-4
+    {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-img
+    {
+        height: 550px;
+    }
+
+    #formularioIdeias input, label, button
+    {
+        display: block;
+        border: none;
+        width: 50%;
     }
 }
